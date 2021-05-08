@@ -1,0 +1,42 @@
+*{
+    margin:0%;
+    padding:0%; 
+}
+body{
+    box-sizing: border-box;
+    color:white;
+}
+.upper-nav{
+    display:flex;
+    background-color: #288581;
+    min-height: 3rem;
+    padding:0.5rem 8rem;
+    justify-content:space-between;
+    align-items: center;
+} 
+.current-div p{
+    border:1px solid white;
+    padding:5px 8px;
+}
+.store-name{
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+} 
+.credentials{
+    display:flex;
+}
+.credentials a{
+    text-decoration: none;
+    color:white;
+    margin-right:30px ;
+}
+.link:hover{
+    border-bottom: 1px solid white;
+}
+.menu-bar{
+    display:inline-block;
+    color:gray;
+    margin:7px;
+    padding:7px;   
+    text-transform:uppercase;
+}
